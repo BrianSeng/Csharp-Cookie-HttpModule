@@ -1,6 +1,6 @@
 ﻿using System.Web;
 
-namespace CodeSnippets.CookieHttpModule
+namespace Example.Namespace.HttpModule.Interfaces
 {
     public interface ICookieService
     {
