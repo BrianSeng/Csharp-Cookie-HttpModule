@@ -4,7 +4,7 @@ using System.Linq;
 using System.Web;
 using System.Web.Configuration;
 
-namespace CodeSnippets.CookieHttpModule.Services
+namespace Example.Namespace.HttpModule.Services
 {
     //key vault for pulling keys from Web.config
     public class SiteConfig : IConfigService
@@ -32,9 +32,9 @@ namespace CodeSnippets.CookieHttpModule.Services
 
         private string[] GetRcKeys()
         {
-            string[] RefCodes = WebConfigurationManager.AppSettings["WatchedKeys"].Split(',');
+            string[] keys = WebConfigurationManager.AppSettings["WatchedKeys"].Split(',');
 
-            return RefCodes;
+            return keys;
         }
     }
 }
