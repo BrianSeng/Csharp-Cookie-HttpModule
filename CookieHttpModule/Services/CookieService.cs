@@ -48,11 +48,13 @@ namespace CodeSnippets.CookieHttpModule.Services
         public bool CheckValExists(string userId, string key, string value)
         {
             //Check if value exists in your DB
+            //via your stored SQL procedure
         }
 
-        public void InsertReferralCode(string userId, string keywordCode, string value, DateTime timeStamp, bool isAnon)
+        public void InsertCookieVals(string userId, string keywordCode, string value, DateTime timeStamp, bool isAnon)
         {
             //Insert cookie vals into DB
+            //via your stored SQL procedure
         }
     }
 }
