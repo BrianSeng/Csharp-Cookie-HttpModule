@@ -26,7 +26,7 @@ public static class UnityConfig
     }
 }
 ```
-Set up your query string keys to watch & register the http module via Web.config
+Set up your query string keys to watch & register the http module via Web.config:
 ```c#
 <appSettings>
     <add key="WatchedKeys" value="example,example1,example2" />
@@ -36,3 +36,4 @@ Set up your query string keys to watch & register the http module via Web.config
       <add name="CookieModule" type="Example.Namespace.HttpModule.CookieModule" preCondition="managedHandler" />
 </modules>
 ```
+Alter to relevant namespaces and include proper using statements into the various files.
