@@ -1,4 +1,4 @@
-﻿namespace CodeSnippets.CookieHttpModule
+﻿namespace Exmaple.Namespace.HttpModule.Interfaces
 {
     public interface IUserService
     {
