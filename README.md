@@ -33,6 +33,6 @@ Set up your query string keys to watch & register the http module via Web.config
     <add key="Example.ApiKey" value="example1293jD_nWo.example94keLdm" />
 </appSettings>
 <modules>
-      <add name="CookieModule" type="Example.Namespace.CookeHttpModule.CookieModule" preCondition="managedHandler" />
+      <add name="CookieModule" type="Example.Namespace.HttpModule.CookieModule" preCondition="managedHandler" />
 </modules>
 ```
