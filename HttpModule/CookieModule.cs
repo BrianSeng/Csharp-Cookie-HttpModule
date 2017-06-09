@@ -6,9 +6,8 @@ using System.Web;
 using System.Web.UI;
 using Microsoft.Practices.Unity;
 using System.Net.Http.Headers;
-using CodeSnippets.CookieHttpModule;
 
-namespace Sabio.Web.Classes.HttpModule
+namespace Example.Namespace.HttpModule
 {
     public class CookieModule : IHttpModule
     {
