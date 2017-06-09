@@ -4,7 +4,7 @@ using System.Collections.Specialized;
 using System.Linq;
 using System.Web;
 
-namespace CodeSnippets.CookieHttpModule.Services
+namespace Example.Namespace.HttpModule.Services
 {
     public class CookieService : ICookieService
     {
