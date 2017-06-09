@@ -8,7 +8,7 @@ using System.Security.Claims;
 using System.Data.Entity.Validation;
 using System.Data;
 
-namespace CodeSnippets.CookieHttpModule.Services
+namespace Example.Namespace.HttpModule.Services
 {
     public class UserService : IUserService
     {
